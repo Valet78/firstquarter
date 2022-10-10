@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "L:\\Users\\vsor2\\YandexDisk\\2022_GeekBrains\\Development\\repositors\\kontrol\\firstquarter\\firstquarter.csproj": {}
+  },
+  "projects": {
+    "L:\\Users\\vsor2\\YandexDisk\\2022_GeekBrains\\Development\\repositors\\kontrol\\firstquarter\\firstquarter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "L:\\Users\\vsor2\\YandexDisk\\2022_GeekBrains\\Development\\repositors\\kontrol\\firstquarter\\firstquarter.csproj",
+        "projectName": "firstquarter",
+        "projectPath": "L:\\Users\\vsor2\\YandexDisk\\2022_GeekBrains\\Development\\repositors\\kontrol\\firstquarter\\firstquarter.csproj",
+        "packagesPath": "L:\\Users\\vsor2\\.nuget\\packages\\",
+        "outputPath": "L:\\Users\\vsor2\\YandexDisk\\2022_GeekBrains\\Development\\repositors\\kontrol\\firstquarter\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "L:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "L:\\Users\\vsor2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "L:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "L:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "L:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
