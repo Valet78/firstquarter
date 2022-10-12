@@ -1,30 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "L:\\Users\\vsor2\\YandexDisk\\2022_GeekBrains\\Development\\repositors\\kontrol\\firstquarter\\firstquarter.csproj": {}
+    "C:\\Users\\vsor2\\YandexDisk\\2022_GeekBrains\\Development\\repositors\\kontrol\\firstquarter\\firstquarter.csproj": {}
   },
   "projects": {
-    "L:\\Users\\vsor2\\YandexDisk\\2022_GeekBrains\\Development\\repositors\\kontrol\\firstquarter\\firstquarter.csproj": {
+    "C:\\Users\\vsor2\\YandexDisk\\2022_GeekBrains\\Development\\repositors\\kontrol\\firstquarter\\firstquarter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\Users\\vsor2\\YandexDisk\\2022_GeekBrains\\Development\\repositors\\kontrol\\firstquarter\\firstquarter.csproj",
+        "projectUniqueName": "C:\\Users\\vsor2\\YandexDisk\\2022_GeekBrains\\Development\\repositors\\kontrol\\firstquarter\\firstquarter.csproj",
         "projectName": "firstquarter",
-        "projectPath": "L:\\Users\\vsor2\\YandexDisk\\2022_GeekBrains\\Development\\repositors\\kontrol\\firstquarter\\firstquarter.csproj",
-        "packagesPath": "L:\\Users\\vsor2\\.nuget\\packages\\",
-        "outputPath": "L:\\Users\\vsor2\\YandexDisk\\2022_GeekBrains\\Development\\repositors\\kontrol\\firstquarter\\obj\\",
+        "projectPath": "C:\\Users\\vsor2\\YandexDisk\\2022_GeekBrains\\Development\\repositors\\kontrol\\firstquarter\\firstquarter.csproj",
+        "packagesPath": "C:\\Users\\vsor2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vsor2\\YandexDisk\\2022_GeekBrains\\Development\\repositors\\kontrol\\firstquarter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "L:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "L:\\Users\\vsor2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "L:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\vsor2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "L:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "L:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

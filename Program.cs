@@ -20,10 +20,36 @@ public class MainClass{
         Console.WriteLine("Ведите количество строк, которые Вы планируете ввести в массив:");
         int numN = inputNum("N = ");
         string [] inputMass = new string [numN];
+        string [] outMass = new string [1] {String.Empty};
         Console.WriteLine("Теперь введите сами строки (конец строки - Enter):");
         InputDataMassive(numN);
+        CheckValuesInMassive(numN);
+        Console.Write("[");
+        OutMassiveInConsole(numN, inputMass);
+        Console.Write("] -> [");
+        if (outMass.Length == 1 && outMass[0] == String.Empty) Console.Write("");
+        else OutMassiveInConsole(outMass.Length, outMass);
+        Console.WriteLine("]");
 
-Console.WriteLine(inputMass[0]);
+        // Вывод массивов
+        void OutMassiveInConsole(int len, string [] massOut){
+            for (int i = 0; i < len; i++){
+                Console.Write("\"{0}\"", massOut[i]);
+                if (i < len - 1) Console.Write(", ");
+            }
+        }
+        
+        // Проверяем полученный массив для формирования нового
+        void CheckValuesInMassive(int num){
+            int temp = 0;
+            for (int i = 0; i < num; i++){
+                if (inputMass[i].Length <= 3) {
+                    if (outMass.Length < temp + 1) Array.Resize(ref outMass, outMass.Length + 1); 
+                    outMass[temp] = inputMass[i];
+                    temp++;                                       
+                }
+            }             
+        }
 
         // Ввод данных в массив строк
         void InputDataMassive(int num){
